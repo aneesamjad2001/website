@@ -1,59 +1,273 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <style>
-    img { max-width: 15%; border-radius: 5%;}
-
-    body {background-color:beige}
-
-    h1 { font-style: bold; color: rgb(1, 10, 16); }
-
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Anees Amjad</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f4ec;
+      color: #222;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px 40px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    }
+
+    h1, h2, h3 {
+      color: #111;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 5px;
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: normal;
+      color: #444;
+      margin-top: 0;
+    }
+
+    h3 {
+      margin-top: 35px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 6px;
+    }
+
+    p {
+      margin: 10px 0;
+    }
+
+    a {
+      color: #1a73e8;
+      text-decoration: none;
+      margin-right: 15px;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .profile-img {
+      width: 160px;
+      border-radius: 10px;
+      margin: 20px 0;
+      display: block;
+    }
+
+    .section {
+      margin-bottom: 25px;
+    }
+
+    .entry {
+      margin-bottom: 20px;
+    }
+
+    .entry-title {
+      font-weight: bold;
+      font-size: 17px;
+    }
+
+    .entry-subtitle {
+      color: #555;
+      margin-bottom: 6px;
+    }
+
+    .small-text {
+      color: #555;
+      font-size: 14px;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #f0f0f0;
+      padding: 6px 10px;
+      margin: 5px 6px 0 0;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    .links a {
+      display: inline-block;
+      margin-bottom: 8px;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 20px;
+        margin: 20px;
+      }
+
+      h1 {
+        font-size: 28px;
+      }
+
+      h2 {
+        font-size: 18px;
+      }
+
+      .profile-img {
+        width: 130px;
+      }
+    }
+  </style>
 </head>
-
 <body>
-  <h1>Anees Amjad</h1>
- 
-  <h2>MS in Computational Analysis and Public Policy @ UChicago | BS in 
-    Economic and Political Science @ LSE | CS and Policy</h2>
+  <div class="container">
 
-    <img src="anees.png" alt="Anees Amjad">
+    <h1>Anees Amjad</h1>
+    <h2>MS in Computational Analysis and Public Policy @ UChicago | Data, Policy, and Computing</h2>
 
-    <br>
-  
-    <a href="CV-Anees%20Amjad.pdf" target="_blank" rel="noopener">My Resume</a>
-    <a href="https://www.linkedin.com/in/anees-amjad/" target="_blank" rel="noopener">My LinkedIn</a>
+    <img src="anees.png" alt="Anees Amjad" class="profile-img" />
 
-    <h3>EDUCATION</h3>
-    <img src="uchicago.png" style=" float:inline-start; max-width:3.5%; padding-right: 20px;" >
+    <p class="links">
+      <a href="CV-Anees%20Amjad.pdf" target="_blank" rel="noopener">Resume</a>
+      <a href="https://www.linkedin.com/in/anees-amjad/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/aneesamjad2001" target="_blank" rel="noopener">GitHub</a>
+    </p>
 
-    <p>The University of Chicago </p>
-    <p>Master of Science in Computational Analysis and Public Policy - June 2027 (Expected)</p>
-       
-    <br>
+    <div class="section">
+      <h3>About Me</h3>
+      <p>
+        I am a graduate student in Computational Analysis and Public Policy at the University of Chicago, with a background in economics, public policy, and data analysis. I am interested in using data, code, and research to understand real-world problems and build tools that are both technically strong and socially meaningful.
+      </p>
+      <p>
+        My work sits at the intersection of policy and computation. I have worked on projects involving machine learning, survey analysis, web scraping, data cleaning, visualization, and applied research. I enjoy building projects that turn messy real-world data into something useful, interpretable, and decision-relevant.
+      </p>
+      <p>
+        Right now, I am especially interested in computational social science, public-interest technology, and data-driven policy analysis.
+      </p>
+    </div>
 
-    <img src="lse.jpg" style ="float:inline-start; max-width:3.5%; padding-right: 20px; padding-top: 20px;">
+    <div class="section">
+      <h3>What I Work On</h3>
+      <div class="skills">
+        <span>Python</span>
+        <span>SQL</span>
+        <span>R</span>
+        <span>Data Analysis</span>
+        <span>Machine Learning</span>
+        <span>Web Scraping</span>
+        <span>Data Visualization</span>
+        <span>Public Policy</span>
+        <span>Computational Social Science</span>
+      </div>
+    </div>
 
-    <p>Lahore School of Economics</p>
-    <p>Bachelor of Science in Economics and Political Science - August 2020 - May 2024</p>
+    <div class="section">
+      <h3>Education</h3>
 
-    <br>
+      <div class="entry">
+        <div class="entry-title">The University of Chicago</div>
+        <div class="entry-subtitle">Master of Science in Computational Analysis and Public Policy | Expected June 2027</div>
+        <p class="small-text">
+          Coursework and projects in data science, programming, statistics, policy analysis, and computational methods.
+        </p>
+      </div>
 
-    <h3>PROFESSIONAL EXPERIENCE</h3>
-    <p>Pak Alliance for Maths and Science (PAMS)</p>
-    <p>Research Associate - Machine Learning - March 2025 - September 2025</p>
-    <p>Center for Economic Research in Pakistan (CERP)</p>
-    <p>Survey Analyst - November 2024 - September 2025</p>
-    <p>LAAM Technologies</p>
-    <p>Growth and Marketing Data Analyst - May 2024 - November 2024</p>
-    <p>Punjab Social Protection Authority (PSPA)</p>
-    <p>Data Analyst Intern - January 2024 - April 2024</p>
-    <p>Center for Research in Economics and Business (CREB)</p>
-    <p>Research Assistant - June 2023 - August 2023</p>
-    
+      <div class="entry">
+        <div class="entry-title">Lahore School of Economics</div>
+        <div class="entry-subtitle">Bachelor of Science in Economics and Political Science | August 2020 – May 2024</div>
+        <p class="small-text">
+          Coursework in econometrics, mathematical economics, time series analysis, and development economics.
+        </p>
+      </div>
+    </div>
 
+    <div class="section">
+      <h3>Professional Experience</h3>
 
+      <div class="entry">
+        <div class="entry-title">Pak Alliance for Maths and Science (PAMS)</div>
+        <div class="entry-subtitle">Research Associate – Machine Learning | March 2025 – September 2025</div>
+        <p>
+          Worked on applied research using data and predictive methods, contributing to projects with policy relevance in education and social outcomes.
+        </p>
+      </div>
+
+      <div class="entry">
+        <div class="entry-title">Center for Economic Research in Pakistan (CERP)</div>
+        <div class="entry-subtitle">Survey Analyst | November 2024 – September 2025</div>
+        <p>
+          Supported survey-based research by cleaning, organizing, and analyzing data for policy and research use.
+        </p>
+      </div>
+
+      <div class="entry">
+        <div class="entry-title">LAAM Technologies</div>
+        <div class="entry-subtitle">Growth and Marketing Data Analyst | May 2024 – November 2024</div>
+        <p>
+          Worked with business and marketing data to identify patterns, track performance, and support data-driven decisions.
+        </p>
+      </div>
+
+      <div class="entry">
+        <div class="entry-title">Punjab Social Protection Authority (PSPA)</div>
+        <div class="entry-subtitle">Data Analyst Intern | January 2024 – April 2024</div>
+      </div>
+
+      <div class="entry">
+        <div class="entry-title">Center for Research in Economics and Business (CREB)</div>
+        <div class="entry-subtitle">Research Assistant | June 2023 – August 2023</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>Selected Projects</h3>
+
+      <div class="entry">
+        <div class="entry-title">U.S. Campaign Messaging and Voter Priorities</div>
+        <div class="entry-subtitle">Class Project | Python, JSON, Altair, Data Visualization</div>
+        <p>
+          Built a project comparing what U.S. presidential candidates talked about in campaign speeches with the issues voters said mattered most during the 2016, 2020, and 2024 election cycles. The project combined polling data, text analysis, and interactive visualizations to explore alignment between public priorities and campaign rhetoric.
+        </p>
+        <p>
+          My work included data cleaning, combining datasets, structuring project outputs, and helping build visualizations for the final dashboard.
+        </p>
+        <p class="links">
+          <a href="https://github.com/uchicago-2026-capp30122/project-sentimeter" target="_blank" rel="noopener">Project Link</a>
+          <a href="https://github.com/aneesamjad2001" target="_blank" rel="noopener">My GitHub Profile</a>
+        </p>
+      </div>
+
+      <div class="entry">
+        <div class="entry-title">Predictive Modeling for Education Policy</div>
+        <div class="entry-subtitle">Research Project | Machine Learning, Policy Research</div>
+        <p>
+          Contributed to a project focused on modeling school enrollment and education-related outcomes in Pakistan. This work involved large-scale data, predictive methods, and policy-oriented interpretation. It strengthened my interest in building computational tools that can support public decision-making.
+        </p>
+        <p class="links">
+          <a href="https://darerc.org/is-it-just-a-numbers-game-predicting-school-access-for-out-of-school-children-in-pakistan/" target="_blank" rel="noopener">Project Publication</a>
+        </p>
+      </div>
+
+      <div class="entry">
+        <div class="entry-title">Survey Data and Applied Research Work</div>
+        <div class="entry-subtitle">CERP and Other Roles | Data Cleaning, Analysis, Interpretation</div>
+        <p>
+          Across different research and analyst roles, I have worked on cleaning survey data, organizing datasets, producing summaries, and supporting projects that connect data analysis with real-world policy and operational questions.
+        </p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>What I’m Looking For</h3>
+      <p>
+        I am interested in opportunities in data science, research, computational social science, and public-interest technology, especially roles where I can work on meaningful problems with strong technical teams.
+      </p>
+    </div>
 
   </div>
 </body>
